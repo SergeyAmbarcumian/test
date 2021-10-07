@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background-color: rgb(1, 140, 158);
+    justify-content: space-between;
+}
+
+.header__left {
+    align-items: center;
+}
+
+.header__left__icon {
+    width: 48px;
+    height: 48px;
+    padding-left: 20px;
+}
+
+.header__left__icon path {
+    fill: white;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(130, 192, 173);
+    padding: 30px 0 30px 30px;
+}
+
+.header__right__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header__right__btn svg {
+    width: 36px;
+    padding-right: 25px;
+}
+
+.header__right__btn svg path {
+    fill: rgb(130, 192, 173);
+}

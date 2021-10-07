@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="nic">
+                <label for="nic">Ник</label>
+                <input type="text" name="nic" id="nic">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="date">
+                <label for="date">Дата рождения</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="sex">
+                <label for="sex">Пол</label>
+                <input type="text" name="sex" id="sex">
+            </div>
+            <div class="coutry">
+                <label for="coutry">Страна</label>
+                <input type="text" name="coutry" id="coutry" list="coutry-list">
+                <datalist id="coutry-list">
+                <option>Украина</option>
+                <option>Германия</option>
+                <option>Польща</option>
+                <option>Италия</option>
+            </datalist>
+            </div>
+            <div class="type">
+                <p>Тип героя</p>
+                <input type="radio" name="type" id="" value="Воин">
+                <label for="type">Воин</label>
+                <br>
+                <input type="radio" name="type" id="" value="Рабочий">
+                <label for="type">Рабочий</label>
+                <br>
+                <input type="radio" name="type" id="" value="Лошадь">
+                <label for="type">Лошадь</label>
+                <br>
+
+            </div>
+            <div class="experience">
+                <label for="experience">Игровой опыт в годах</label>
+                <input type="number" min="0" max="60" name="experience" id="experience">
+            </div>
+            <button>Add</button>
+        </form>
+    </div>
+</body>
+
+</html>

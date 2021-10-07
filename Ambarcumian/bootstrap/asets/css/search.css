@@ -1,0 +1,15 @@
+.card__img {
+    width: 100px;
+}
+
+.footer__logo__img {
+    width: 64px;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer__logo a {
+    text-decoration: none;
+}

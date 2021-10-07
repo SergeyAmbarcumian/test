@@ -1,0 +1,269 @@
+/* hero */
+
+.hero {
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #F8F8F8;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-color: #3CA7DB;
+    border-radius: 50%;
+    display: block;
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 50%);
+}
+
+.hero__container {
+    justify-content: space-between;
+}
+
+.hero__container__left {
+    margin-top: 97px;
+    max-width: 624px;
+    width: 50%;
+}
+
+.hero__container__left__title {
+    font-weight: 900;
+    font-size: 36px;
+    color: #000000;
+    max-width: 323px;
+    margin: 0 0 12px;
+}
+
+.hero__container__left__text {
+    font-size: 20px;
+    margin: 0 0 42px;
+}
+
+.hero__container__left__btn {
+    padding: 23px 95px;
+}
+
+.hero__container__left__des {
+    color: #515151;
+    max-width: 242px;
+    margin: 40px 0 0;
+}
+
+.hero__container__left__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 624px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    grid-gap: 15px;
+}
+
+.hero__container__left__list__item {
+    align-items: center;
+}
+
+.hero__container__left__list__item:not(:last-child) {
+    position: relative;
+}
+
+.hero__container__left__list__item:not(:last-child)::before {
+    content: '';
+    width: 1px;
+    height: 75px;
+    background-color: #EEEEEE;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero__container__left__list__item__title {
+    font-weight: bold;
+    font-size: 72px;
+    margin: 0;
+}
+
+.hero__container__left__list__text {
+    margin: 0;
+}
+
+.hero__img {
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50% + 30px));
+    left: 52%;
+}
+
+
+/* /hero */
+
+
+/* product */
+
+.product {
+    padding: 114px 0;
+}
+
+.product__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: .83;
+    margin: 0;
+    text-align: center;
+}
+
+.product__grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 20px;
+}
+
+.card {
+    border: 1px solid #EFEFEF;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px #D5D5D5;
+    cursor: pointer;
+}
+
+.card__title {
+    min-width: 260px;
+    margin: 21px auto 0;
+}
+
+.card:first-child .card__title {
+    margin-top: 51px;
+}
+
+.product__contact {
+    margin-top: 65px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product__contact__text,
+.product__contact__title {
+    margin: 0;
+}
+
+.product__contact__btn {
+    margin-left: 81px;
+}
+
+.product__men {
+    position: relative;
+    background-color: #3CA7DB;
+    padding: 90px 71px 66px;
+    margin: 154px 0 0;
+    ;
+}
+
+.product__men__left {
+    color: #fff;
+    max-width: 490px;
+}
+
+.product__men__left__title {
+    font-size: 36px;
+    line-height: 1.02;
+    margin: 0 0 11px;
+}
+
+.product__men__left__text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #D3E8E0;
+    margin: 0;
+}
+
+.product__men__left__btn {
+    margin-top: 17px;
+}
+
+.product__men__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* /product */
+
+.service {
+    padding: 102px 0;
+    background: #3CA7DB;
+}
+
+.service__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.service__title span {
+    color: #FF4141;
+}
+
+.service__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service__card__item {
+    width: 285px;
+    height: 190px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.service__card__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2F2F2F;
+    padding: 18px 0 0 28px;
+}
+
+.service__card__text {
+    font-size: 14px;
+    line-height: 25px;
+    color: #AFAFAF;
+    padding-left: 28px;
+}
+
+.service__card__text__price {
+    font-size: 14px;
+    line-height: 25px;
+    color: #AE1A49;
+    padding-left: 28px;
+}
+
+
+/* servic */
+
+
+/* /servic */

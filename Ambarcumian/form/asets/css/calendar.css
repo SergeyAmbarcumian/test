@@ -1,0 +1,59 @@
+.data {
+    justify-content: center;
+    align-items: center;
+}
+
+.data__title {
+    font-weight: lighter;
+}
+
+.data__text {
+    color: rgb(130, 192, 173);
+    padding: 0 15px 0 15px;
+    font-weight: 600;
+}
+
+.svg__left {
+    transform: rotate(180deg);
+    width: 16px;
+}
+
+.svg__rigt {
+    width: 16px;
+}
+
+.data svg path {
+    fill: rgb(130, 192, 173);
+}
+
+.main {
+    width: 100%;
+}
+
+.main__row {
+    display: grid;
+    grid-template-columns: 150px repeat(8, 1fr);
+}
+
+.main__row__title {
+    background-color: rgb(130, 192, 173);
+    border: 1px solid rgb(158, 158, 158);
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+
+.main__row1 {
+    position: relative;
+    text-align: center;
+    background-color: rgb(138, 138, 138);
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.main__row1__text {
+    position: absolute;
+    right: 0;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 2px 6px 2px 6px;
+    background-color: rgb(130, 192, 173);
+}

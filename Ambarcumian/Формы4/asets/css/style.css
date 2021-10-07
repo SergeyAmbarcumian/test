@@ -1,0 +1,131 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.gazeta.ru/files3/839/7947839/upload-shutterstock_109674992-pic905v-895x505-10385.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact__form {
+    box-shadow: 0px 0px 4px 6px rgba(0, 0, 0, 0.603);
+    color: #fff;
+}
+
+.contact__form__title {
+    padding: 40px 0 20px 30px;
+}
+
+.contact__form__text {
+    padding: 0 0 20px 30px;
+    font-weight: 600;
+}
+
+.contact__form__name {
+    padding: 0 30px 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__form__input {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.contact__form__input input {
+    display: block;
+    width: 47%;
+}
+
+.contact__form__email {
+    display: flex;
+    padding: 0 30px 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__form__email__input {
+    display: flex;
+    width: 80%;
+}
+
+.contact__form__email__input input {
+    display: block;
+    width: 100%;
+}
+
+.contact__form__phone {
+    display: flex;
+    padding: 0 30px 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__form__phone__input {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.contact__form__phone__input input {
+    display: block;
+    width: 30%;
+}
+
+.contact__form__subject {
+    display: flex;
+    padding: 0 30px 15px 30px;
+    justify-content: space-between;
+}
+
+.contact__form__subject__select {
+    display: flex;
+    width: 80%;
+}
+
+.contact__form__subject__select select {
+    display: block;
+    width: 100%;
+}
+
+.contact__form__message {
+    display: flex;
+    padding: 0 30px 15px 30px;
+    justify-content: space-between;
+}
+
+.contact__form__input__message {
+    display: flex;
+    width: 80%;
+}
+
+.contact__form__input__message textarea {
+    display: block;
+    width: 100%;
+}
+
+.button {
+    border: 2px solid #fff;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.contact__form__btn {
+    padding: 0 30px 15px 30px;
+}
+
+input,
+select {
+    padding: 7px 0 7px 10px;
+}

@@ -1,0 +1,19 @@
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+.nic {
+    margin-top: 15px;
+}
